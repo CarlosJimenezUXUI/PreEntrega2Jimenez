@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/fonts/Quicksand-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sixing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  background-color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navbar-nav ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url('../assets/img/img-hero.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.hero-button:hover {
+  background-color: #cc0000;
+}
+
+.head-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.image {
+  width: 700px;
+  height: 300px;
+  flex: 0 0 auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1 1 auto;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-content {
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.services-content img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.services-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services-content p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #777;
+}
+
